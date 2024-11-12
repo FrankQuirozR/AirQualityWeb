@@ -1,13 +1,13 @@
 import React from 'react';
-import BUENO from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/BUENO.gif';
-import MODERADO from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/MODERADO.gif';
-import INSALUBREGS from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/INSALUBREGS.gif';
-import INSALUBRE from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/INSALUBRE.gif';
-import MUYINSALUBRE from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/MUYINSALUBRE.gif';
-import humedad from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/humedad.gif';
-import pm25 from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/PM.gif';
-import temp from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/TEMPERATURA.gif';
-import ubi from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/mapa.gif';
+import BUENO from './imagenes/BUENO.gif';
+import MODERADO from './imagenes/MODERADO.gif';
+import INSALUBREGS from './imagenes/INSALUBREGS.gif';
+import INSALUBRE from './imagenes/INSALUBRE.gif';
+import MUYINSALUBRE from './imagenes/MUYINSALUBRE.gif';
+import humedad from './imagenes/humedad.gif';
+import pm25 from './imagenes/PM.gif';
+import temp from './imagenes/TEMPERATURA.gif';
+import ubi from './imagenes/mapa.gif';
 
 const StationSidebar = ({ station, districtName, measurements, onClose }) => {
 

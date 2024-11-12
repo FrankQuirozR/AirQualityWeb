@@ -6,9 +6,9 @@ import L from 'leaflet';
 import './App.css';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from 'chart.js';
 import GraficosEstacion from './GraficosEstacion';
-import pmGif from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/PM.gif';
-import temperaturaGif from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/TEMPERATURA.gif';
-import humedadGif from 'C:/Users/frank/Desktop/PAGINASENSORES/geovisor/src/imagenes/humedad.gif';
+import pmGif from './imagenes/PM.gif';
+import temperaturaGif from './imagenes/TEMPERATURA.gif';
+import humedadGif from './imagenes/humedad.gif';
 import StationSidebar from './StationSidebar';
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
